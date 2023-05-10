@@ -108,7 +108,7 @@ const ByBranch = () => {
                     </Grid>
                     <Grid item md={3}>
                         <TextField fullWidth placeholder="Branch Name" label="Branch Name"{...register("branch", { required: "Branch Name is required" })}></TextField>
-                        <p className="error-message">{errors.branchName?.message}</p>
+                        <p className="error-message">{errors.branch?.message}</p>
                     </Grid>
                 </Grid>
                 <Grid container spacing={3} alignItems="center" justifyContent="center">

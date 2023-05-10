@@ -81,7 +81,7 @@ const ByAuthor = () => {
                     </Grid>
                     <Grid item md={3}>
                         <TextField fullWidth placeholder="Author Name" id="prAuthorUsername" label="Author Name" {...register('prAuthorUsername', { required: "Author Name is required" })} />
-                        <p className="error-message">{errors.authorName?.message}</p>
+                        <p className="error-message">{errors.prAuthorUsername?.message}</p>
                     </Grid>
                 </Grid>
                 <Grid container spacing={3} alignItems="center" justifyContent="center">
